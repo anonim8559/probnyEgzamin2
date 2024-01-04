@@ -1,0 +1,4 @@
+1.SELECT `id`,`imie`,`nazwisko`,`rok_urodzenia`,`zdjecie` FROM `osoby` LIMIT 30
+2.SELECT osoby.imie,osoby.nazwisko,osoby.rok_urodzenia,osoby.opis,osoby.zdjecie , hobby.nazwa FROM `osoby`, hobby WHERE hobby.id=osoby.Hobby_id AND osoby.id=10
+3.SELECT AVG(rok_urodzenia), MIN(rok_urodzenia), MAX(rok_urodzenia) FROM `osoby`
+4.UPDATE `osoby` SET `opis`='[test]' WHERE Hobby_id=4
