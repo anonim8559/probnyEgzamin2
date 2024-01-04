@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica;
+  margin: 0px;
+  display: grid;
+  grid-template-areas:
+    "baner"
+    "srodek"
+    "stopka";
+  grid-template-columns: 100%;
+  grid-template-rows: 2vh 96vh 2vh;
+}
+
+#baner {
+  grid-area: baner;
+  background-color: #af4448;
+  color: white;
+  text-align: center;
+}
+
+#srodek {
+  grid-area: srodek;
+  display: grid;
+  grid-template-areas: "lewo prawo";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  background-color: #ffa4a2;
+}
+
+#lewo {
+  grid-area: lewo;
+}
+
+#prawo {
+  grid-area: prawo;
+}
+
+#stopka {
+  grid-area: stopka;
+  background-color: #af4448;
+  color: white;
+  text-align: center;
+}
+
+form {
+  border-bottom: 2px solid grey;
+  padding-bottom: 20px;
+}
+
+#p {
+  background-color: #af4448;
+  color: white;
+}
