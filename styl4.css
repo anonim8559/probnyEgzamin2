@@ -7,7 +7,7 @@ body {
     "srodek"
     "stopka";
   grid-template-columns: 100%;
-  grid-template-rows: 2vh 96vh 2vh;
+  grid-template-rows: 20px 650px 20px;
 }
 
 #baner {
