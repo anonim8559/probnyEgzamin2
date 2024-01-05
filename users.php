@@ -24,7 +24,7 @@ $conn = new mysqli($servername, $username, $password, $database);
 
 
 
-$sql = "SELECT id, imie, nazwisko, rok_urodzenia FROM osoby";
+$sql = "SELECT id, imie, nazwisko, rok_urodzenia FROM osoby LIMIT 30";
 $result = $conn->query($sql);
 
 
