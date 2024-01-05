@@ -44,6 +44,8 @@ body {
 form {
   border-bottom: 2px solid grey;
   padding-bottom: 20px;
+  display: inline-flex;
+  gap: 20px;
 }
 
 #p {
